@@ -1,11 +1,14 @@
-import Globe from "./components/Globe/Globe";
-import Header from "./components/Header/Header";
+import { BrowserRouter as Router, Link, Route } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Globe />
+      <Router>
+        <Route path="/" exact>
+          <Home />
+        </Route>
+      </Router>
     </div>
   );
 }
