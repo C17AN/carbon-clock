@@ -1,0 +1,18 @@
+.header__container {
+  position: absolute;
+  z-index: 100;
+  width: 100vw;
+  height: 80px;
+  background-color: rgba(49, 49, 49, 0.7);
+  color: white;
+  ul {
+    height: 100%;
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    li {
+      align-self: center;
+      list-style: none;
+    }
+  }
+}
