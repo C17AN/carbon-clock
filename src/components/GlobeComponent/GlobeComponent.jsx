@@ -36,6 +36,9 @@ const GlobeComponent = () => {
         labelDotRadius={(d) => Math.sqrt(d.properties.pop_max) * 4e-4}
         labelColor={() => "rgba(255, 165, 0, 0.75)"}
         labelResolution={2}
+        onHexPolygonClick={() => {
+          console.log("hello");
+        }}
       />
     </>
   );
