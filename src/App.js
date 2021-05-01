@@ -3,11 +3,13 @@ import Current from "./pages/Current";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Effort from "./pages/Effort";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <Header />
         <Route path="/" exact>
           <Home />
         </Route>

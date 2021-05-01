@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 import Globe from "react-globe.gl";
 import Clock from "../Clock/Clock";
+import Message from "../Message/Message";
 
 const GlobeComponent = () => {
   const [places, setPlaces] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
-      await fetch("/ne_110m_populated_places_simple.geojson", {
+      await fetch("/data.geojson", {
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",
@@ -15,7 +16,6 @@ const GlobeComponent = () => {
       })
         .then((res) => res.json())
         .then(({ features }) => {
-          console.log(features);
           setPlaces(features);
         });
     };
@@ -24,6 +24,7 @@ const GlobeComponent = () => {
 
   return (
     <>
+      <Message />
       <Clock />
       <Globe
         globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
@@ -31,13 +32,13 @@ const GlobeComponent = () => {
         labelsData={places}
         labelLat={(d) => d.properties.latitude}
         labelLng={(d) => d.properties.longitude}
-        labelText={(d) => d.properties.name}
-        labelSize={(d) => Math.sqrt(d.properties.pop_max) * 4e-4}
-        labelDotRadius={(d) => Math.sqrt(d.properties.pop_max) * 4e-4}
-        labelColor={() => "rgba(255, 165, 0, 0.75)"}
+        labelText={(d) => ""}
+        labelSize={(d) => Math.sqrt(d.properties.pop_max) * 0.03}
+        labelDotRadius={(d) => Math.sqrt(d.properties.pop_max) * 0.065}
+        labelColor={() => "rgba(255, 0, 0, 0.75)"}
         labelResolution={2}
-        onHexPolygonClick={() => {
-          console.log("hello");
+        onLabelClick={(d) => {
+          alert(d.properties.name);
         }}
       />
     </>

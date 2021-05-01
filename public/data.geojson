@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "중국",
+        "name_eng": "China",
+        "latitude": 43.8050122264,
+        "longitude": 87.5750056549,
+        "pop_max": 9729
+      },
+      "bbox": [12.453387, 41.903282, 12.453387, 41.903282],
+      "geometry": { "type": "Point", "coordinates": [12.453387, 41.903282] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "미국",
+        "name_eng": "United States",
+        "latitude": 40.9899782502,
+        "longitude": -105.179980511,
+        "pop_max": 4920
+      },
+      "bbox": [12.453387, 41.903282, 12.453387, 41.903282],
+      "geometry": { "type": "Point", "coordinates": [12.453387, 41.903282] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "러시아",
+        "name_eng": "Russia",
+        "latitude": 55.7521641226,
+        "longitude": 115.6155228259,
+        "pop_max": 1754
+      },
+      "bbox": [12.453387, 41.903282, 12.453387, 41.903282],
+      "geometry": { "type": "Point", "coordinates": [12.453387, 41.903282] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "인도",
+        "name_eng": "India",
+        "latitude": 19.0169903757,
+        "longitude": 72.8569892974,
+        "pop_max": 2222
+      },
+      "bbox": [12.453387, 41.903282, 12.453387, 41.903282],
+      "geometry": { "type": "Point", "coordinates": [12.453387, 41.903282] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "일본",
+        "name_eng": "Japan",
+        "latitude": 35.0299922882,
+        "longitude": 135.749997924,
+        "pop_max": 1045
+      },
+      "bbox": [12.453387, 41.903282, 12.453387, 41.903282],
+      "geometry": { "type": "Point", "coordinates": [12.453387, 41.903282] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "독일",
+        "name_eng": "Germany",
+        "latitude": 52.5218186636,
+        "longitude": 13.4015486233,
+        "pop_max": 673
+      },
+      "bbox": [12.453387, 41.903282, 12.453387, 41.903282],
+      "geometry": { "type": "Point", "coordinates": [12.453387, 41.903282] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "대한민국",
+        "name_eng": "South Korea",
+        "latitude": 37.5663490998,
+        "longitude": 126.999730997,
+        "pop_max": 650
+      },
+      "bbox": [12.453387, 41.903282, 12.453387, 41.903282],
+      "geometry": { "type": "Point", "coordinates": [12.453387, 41.903282] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "이란",
+        "name_eng": "Iran",
+        "latitude": 35.6719427684,
+        "longitude": 51.4243440336,
+        "pop_max": 638
+      },
+      "bbox": [12.453387, 41.903282, 12.453387, 41.903282],
+      "geometry": { "type": "Point", "coordinates": [12.453387, 41.903282] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "인도네시아",
+        "name_eng": "Indonesia",
+        "latitude": -6.17441770541,
+        "longitude": 106.829437621,
+        "pop_max": 581
+      },
+      "bbox": [12.453387, 41.903282, 12.453387, 41.903282],
+      "geometry": { "type": "Point", "coordinates": [12.453387, 41.903282] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "캐나다",
+        "name_eng": "Canada",
+        "latitude": 45.4166967967,
+        "longitude": -75.7000153012,
+        "pop_max": 569
+      },
+      "bbox": [12.453387, 41.903282, 12.453387, 41.903282],
+      "geometry": { "type": "Point", "coordinates": [12.453387, 41.903282] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "사우디아라비아",
+        "name_eng": "Saudi Arabia",
+        "latitude": 24.6408331492,
+        "longitude": 46.7727416573,
+        "pop_max": 534
+      },
+      "bbox": [12.453387, 41.903282, 12.453387, 41.903282],
+      "geometry": { "type": "Point", "coordinates": [12.453387, 41.903282] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "남아프리카 공화국",
+        "name_eng": "Republic of South Africa",
+        "latitude": -5.9200109672,
+        "longitude": 22.4349881578,
+        "pop_max": 447
+      },
+      "bbox": [12.453387, 41.903282, 12.453387, 41.903282],
+      "geometry": { "type": "Point", "coordinates": [12.453387, 41.903282] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "브라질",
+        "name_eng": "Brazil",
+        "latitude": -14,
+        "longitude": -54.25,
+        "pop_max": 465
+      },
+      "bbox": [12.453387, 41.903282, 12.453387, 41.903282],
+      "geometry": { "type": "Point", "coordinates": [12.453387, 41.903282] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "오스트레일리아",
+        "name_eng": "Australia",
+        "latitude": -26.75,
+        "longitude": 133.24,
+        "pop_max": 441
+      },
+      "bbox": [12.453387, 41.903282, 12.453387, 41.903282],
+      "geometry": { "type": "Point", "coordinates": [12.453387, 41.903282] }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+.message__container {
+  position: absolute;
+  top: 120px;
+  left: 50px;
+  z-index: 1;
+  height: 80px;
+  border-radius: 12px;
+  color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 0 auto;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.message--first {
+  opacity: 0;
+  display: inline-block;
+  overflow: hidden;
+  animation: 2s fadeIn ease-in-out forwards;
+}
+
+.message--second {
+  opacity: 0;
+  display: inline-block;
+  overflow: hidden;
+  animation: 2s 2s fadeIn ease-in-out forwards;
+}
+
+.message--third {
+  opacity: 0;
+  display: inline-block;
+  overflow: hidden;
+  font-size: 24px;
+  animation: 3s 4s fadeIn ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
