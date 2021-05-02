@@ -1,5 +1,5 @@
-import { BrowserRouter as Router, Link, Route } from "react-router-dom";
-import Current from "./pages/Current";
+import { BrowserRouter as Router, Link, Route, Switch, useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Effort from "./pages/Effort";
@@ -11,15 +11,19 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-        <Route path="/" exact>
-          <Home />
-        </Route>
-        <Route path="/about" exact>
-          <About />
-        </Route>
-        <Route path="/effort" exact>
-          <Effort />
-        </Route>
+        <AnimatePresence exitBeforeEnter>
+          <Switch>
+            <Route path="/" exact>
+              <Home />
+            </Route>
+            <Route path="/about" exact>
+              <About />
+            </Route>
+            <Route path="/effort" exact>
+              <Effort />
+            </Route>
+          </Switch>
+        </AnimatePresence>
       </Router>
     </div>
   );
