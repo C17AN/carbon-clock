@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Effort from "./pages/Effort";
 import Header from "./components/Header/Header";
+import "./styles/App.scss";
 
 function App() {
   return (
@@ -15,9 +16,6 @@ function App() {
         </Route>
         <Route path="/about" exact>
           <About />
-        </Route>
-        <Route path="/current" exact>
-          <Current />
         </Route>
         <Route path="/effort" exact>
           <Effort />

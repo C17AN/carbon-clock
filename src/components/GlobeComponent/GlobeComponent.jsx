@@ -3,13 +3,17 @@ import Globe from "react-globe.gl";
 import Clock from "../Clock/Clock";
 import Message from "../Message/Message";
 import nanumgothic from "../../fonts/NanumBarunGothic_Regular.json";
+import ModalComponent from "../ModalComponent/ModalComponent";
 
 const GlobeComponent = () => {
   const [places, setPlaces] = useState([]);
+  const [modalIsOpen, setIsOpen] = useState(false);
+  const [countryName, setCountryName] = useState(null);
+  const [countryDescription, setCountryDescription] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
-      await fetch("/data.geojson", {
+      await fetch("/data.json", {
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",
@@ -26,6 +30,12 @@ const GlobeComponent = () => {
   return (
     <>
       <Message />
+      <ModalComponent
+        name={countryName}
+        description={countryDescription}
+        modalIsOpen={modalIsOpen}
+        setIsOpen={setIsOpen}
+      />
       <Clock />
       <Globe
         globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
@@ -40,7 +50,9 @@ const GlobeComponent = () => {
         labelTypeFace={nanumgothic}
         labelResolution={2}
         onLabelClick={(d) => {
-          alert(d.properties.name);
+          setCountryName(d.properties.name);
+          setCountryDescription(d.properties.description);
+          setIsOpen(() => true);
         }}
       />
     </>

@@ -9,8 +9,8 @@ const Header = () => {
         <Link to="/about">
           <li>탄소배출이란?</li>
         </Link>
-        <Link to="/current">
-          <li>세계 탄소배출 현황</li>
+        <Link to="/">
+          <li>세계 온실가스 배출현황</li>
         </Link>
         <Link to="/growth">
           <li>지속가능한 성장</li>
