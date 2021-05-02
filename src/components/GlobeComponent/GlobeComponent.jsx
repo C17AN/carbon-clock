@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Globe from "react-globe.gl";
 import Clock from "../Clock/Clock";
 import Message from "../Message/Message";
-import nanumgothic from "../../fonts/NanumBarunGothic_Light.json";
+import nanumgothic from "../../fonts/NanumBarunGothic_Regular.json";
 
 const GlobeComponent = () => {
   const [places, setPlaces] = useState([]);
