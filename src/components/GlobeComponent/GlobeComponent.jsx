@@ -46,7 +46,7 @@ const GlobeComponent = () => {
         labelText={(d) => d.properties.name}
         labelSize={(d) => Math.sqrt(d.properties.pop_max) * 0.03}
         labelDotRadius={(d) => Math.sqrt(d.properties.pop_max) * 0.065}
-        labelColor={() => "rgba(255, 0, 0, 0.75)"}
+        labelColor={() => "rgba(255, 50, 50, 0.6)"}
         labelTypeFace={nanumgothic}
         labelResolution={2}
         onLabelClick={(d) => {
