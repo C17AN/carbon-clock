@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Globe from "react-globe.gl";
 import Clock from "../Clock/Clock";
 import Message from "../Message/Message";
+import nanumgothic from "../../fonts/NanumBarunGothic_Light.json";
 
 const GlobeComponent = () => {
   const [places, setPlaces] = useState([]);
@@ -32,10 +33,11 @@ const GlobeComponent = () => {
         labelsData={places}
         labelLat={(d) => d.properties.latitude}
         labelLng={(d) => d.properties.longitude}
-        labelText={(d) => ""}
+        labelText={(d) => d.properties.name}
         labelSize={(d) => Math.sqrt(d.properties.pop_max) * 0.03}
         labelDotRadius={(d) => Math.sqrt(d.properties.pop_max) * 0.065}
         labelColor={() => "rgba(255, 0, 0, 0.75)"}
+        labelTypeFace={nanumgothic}
         labelResolution={2}
         onLabelClick={(d) => {
           alert(d.properties.name);
