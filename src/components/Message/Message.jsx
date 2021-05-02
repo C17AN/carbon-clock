@@ -9,7 +9,7 @@ const Message = () => {
       <span className="message--second">초당 약 1,101톤의 온실가스가 방출되고 있습니다.</span>
       <br />
       <br />
-      <span className="message--third">여러분의 지구는, 과연 안녕하신가요?</span>
+      <span className="message--third">여러분의 지구를, 지켜주세요.</span>
     </div>
   );
 };
