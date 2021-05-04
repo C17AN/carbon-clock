@@ -4,7 +4,11 @@
 ![badge](https://img.shields.io/github/stars/C17AN/carbon-clock)
 ![badge](https://img.shields.io/github/license/C17AN/carbon-clock)
 
-## 🖥 탄소시계 프로젝트
+## 🖥 프로젝트 설명 - 탄소시계 프로젝트
+
+### 팀 지구대 (지구를 구하는 대학생들)
+
+![스크린샷](./screenshot.png)
 
 ⏰ 우리에게 남은 시간이, 단 몇십 년 뿐이라고요?  
 탄소시계 프로젝트는 세계의 탄소 배출현황과 지구 평균기온이 위험 수준으로 상승할 때까지 남은 시간을 보여줍니다.
