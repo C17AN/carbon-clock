@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Link, Route, Switch, useLocation } from "react
 import { AnimatePresence } from "framer-motion";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Effort from "./pages/Effort";
+import Danger from "./pages/Danger";
 import Header from "./components/Header/Header";
 import "./styles/App.scss";
 
@@ -19,8 +19,8 @@ function App() {
             <Route path="/about" exact>
               <About />
             </Route>
-            <Route path="/effort" exact>
-              <Effort />
+            <Route path="/Danger" exact>
+              <Danger />
             </Route>
           </Switch>
         </AnimatePresence>

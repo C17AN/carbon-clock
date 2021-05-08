@@ -1,0 +1,32 @@
+.Danger__container {
+  height: 80vh;
+  padding: 100px 50px 50px;
+  background-color: #ffffff;
+  h2 {
+    padding-bottom: 1rem;
+    margin-bottom: 12px;
+  }
+}
+
+.video-bear {
+  position: fixed;
+  z-index: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.8;
+}
+
+.content-container {
+  position: fixed;
+  font-family: Noto Sans kr;
+  height: 500px;
+  width: 800px;
+  color: rgb(255, 255, 255);
+  h2 {
+    font-weight: 300;
+    font-size: 2rem;
+  }
+  font-weight: 300;
+}

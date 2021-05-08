@@ -12,8 +12,8 @@ const Header = () => {
         <Link to="/">
           <li>세계 온실가스 배출현황</li>
         </Link>
-        <Link to="/effort">
-          <li>지속가능한 성장</li>
+        <Link to="/Danger">
+          <li>위기의 지구</li>
         </Link>
       </ul>
     </div>
