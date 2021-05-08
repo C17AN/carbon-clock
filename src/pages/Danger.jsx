@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { fade, pageAnimation } from "../animations";
 import polar from "../video/polar.mp4";
+import CustomChart from "../components/CustomChart/CustomChart";
 
 const Danger = () => {
   return (
@@ -17,6 +18,7 @@ const Danger = () => {
       <div className="content-container">
         <h2>위기에 빠진 지구</h2>
         <div>"온실 효과" 라는 말에 대해 들어보신적 있으신가요?</div>
+        <CustomChart />
       </div>
     </motion.div>
   );

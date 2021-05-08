@@ -1,6 +1,7 @@
 .Danger__container {
   height: 80vh;
-  padding: 100px 50px 50px;
+  padding: 100px 50px;
+  width: 100%;
   background-color: #ffffff;
   h2 {
     padding-bottom: 1rem;
@@ -15,6 +16,7 @@
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  max-width: 100vw;
   opacity: 0.8;
 }
 
@@ -22,7 +24,7 @@
   position: fixed;
   font-family: Noto Sans kr;
   height: 500px;
-  width: 800px;
+  width: 100%;
   color: rgb(255, 255, 255);
   h2 {
     font-weight: 300;

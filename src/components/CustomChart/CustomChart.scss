@@ -1,0 +1,15 @@
+.chart-container {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  padding: 30px;
+  justify-content: center;
+  width: calc(100% - 160px);
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.822);
+  border-radius: 12px;
+  border: 3px solid #cdcdcd;
+  -webkit-box-shadow: 5px 5px 3px 0px rgba(102, 102, 102, 1);
+  -moz-box-shadow: 5px 5px 3px 0px rgba(102, 102, 102, 1);
+  box-shadow: 5px 5px 3px 0px rgba(102, 102, 102, 1);
+}
