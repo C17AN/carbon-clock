@@ -81,7 +81,7 @@ const About = () => {
               onMouseLeave={() => setSolution(null)}
             />
             <div
-              style={{ marginTop: 30, lineHeight: 1.7, position: "fixed" }}
+              style={{ marginTop: 30, lineHeight: 1.7, position: "absolute" }}
               className="about__description"
             >
               {renderDescription()}
