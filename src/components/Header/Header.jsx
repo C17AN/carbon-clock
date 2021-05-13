@@ -7,7 +7,7 @@ const Header = () => {
     <div className="header__container">
       <ul>
         <Link to="/about">
-          <li>탄소배출이란?</li>
+          <li>일상 속 탄소배출</li>
         </Link>
         <Link to="/">
           <li>세계 온실가스 배출현황</li>
