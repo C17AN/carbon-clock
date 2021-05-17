@@ -1,6 +1,33 @@
 @import "./About";
 @import "./Danger";
 
+svg {
+  pointer-events: none;
+}
+
+.korea-map {
+  width: 100%;
+  position: relative;
+  top: -30px;
+}
+
+path {
+  pointer-events: auto;
+}
+
+.land {
+  fill: #cccccc;
+  fill-opacity: 1;
+  stroke: white;
+  stroke-opacity: 1;
+  stroke-width: 0.5;
+}
+
+.home {
+  width: 100%;
+  overflow: hidden !important;
+}
+
 .fade-enter {
   opacity: 0.01;
 }
@@ -17,6 +44,13 @@
 .fade-exit.fade-exit-active {
   opacity: 0.01;
   transition: opacity 300ms ease-in;
+}
+
+.toggle-switch {
+  position: fixed !important;
+  top: 120px;
+  right: 100px;
+  z-index: 10;
 }
 
 div.transition-group {
