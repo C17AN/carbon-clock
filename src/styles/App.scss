@@ -1,6 +1,10 @@
 @import "./About";
 @import "./Danger";
 
+* {
+  box-sizing: border-box;
+}
+
 svg {
   pointer-events: none;
 }

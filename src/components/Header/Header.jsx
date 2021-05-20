@@ -10,7 +10,7 @@ const Header = () => {
           <li>일상 속 탄소배출</li>
         </Link>
         <Link to="/">
-          <li>세계 온실가스 배출현황</li>
+          <li>온실가스 배출현황</li>
         </Link>
         <Link to="/Danger">
           <li>위기의 지구</li>
