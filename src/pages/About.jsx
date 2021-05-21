@@ -21,7 +21,7 @@ const About = () => {
       case "cup":
         return "<span style = 'font-weight: bold;'>[☕️ 머그컵, 텀블러 활용하기]</span> - 재사용이 가능한 컵을 사용함으로써 일상 속에서 불필요하게 소모되는 종이컵 & 플라스틱 컵을 줄일 수 있습니다.";
       case "environment":
-        return "<span style = 'font-weight: bold;'>[🌲 숲과 나무 보존하기]</span> - 숲은 이산화탄소를 흡수해 산소를 배출하는 거대한 산소 공장입니다.";
+        return "<span style = 'font-weight: bold;'>[🌲 숲과 나무 보존하기]</span> - 숲은 이산화탄소를 흡수해 산소를 배출하는 거대한 산소 공장입니다.<br/>1 헥타르의 숲은  1년간 16톤의 이산화탄소를 흡수하고, 12톤의 산소를 방출한다고 합니다.";
       case "digital":
         return "<span style = 'font-weight: bold;'>[📱 디지털 기기 사용 줄이기]</span> - 여러분이 접하는 모든 데이터는 \"데이터 센터\" 에 저장되는데요, 유튜브 시청 10분에 1g, 이메일 한 통에 4g, 데이터 1MB 사용에 11g에 달하는 탄소를 배출하는 것과 같다고 합니다.";
       default:

@@ -13,7 +13,7 @@ const customStyles = {
     bottom: "auto",
     marginRight: "-50%",
     width: "500px",
-    height: "350px",
+    height: "390px",
     borderRadius: "12px",
     transform: "translate(-50%, -50%)",
     overflow: "hidden",
@@ -26,13 +26,16 @@ const customStyles = {
 const Table = styled.table`
   width: 100%;
   overflow: hidden;
+  border: 1px solid #cdcdcd;
+  border-radius: 12px;
+  padding: 10px;
   border-collapse: separate;
   border-spacing: 0 10px;
   th {
+    padding-bottom: 5px;
     border-bottom: 2px solid #17477a;
   }
   th:first-child {
-    border: none;
   }
   tr {
     padding: 10px 0;
@@ -88,7 +91,7 @@ const ProvinceModal = ({ provinceData, modalIsOpen, setIsOpen, setProvince }) =>
         </h2>
         <article className="country__description">
           <Table>
-            <th></th>
+            <th>항목</th>
             <th>2016년</th>
             <th>2017년</th>
             <th>2018년</th>
@@ -124,7 +127,7 @@ const ProvinceModal = ({ provinceData, modalIsOpen, setIsOpen, setProvince }) =>
             </tr>
           </Table>
         </article>
-        <div style={{ fontSize: "0.8rem", textAlign: "right", marginTop: "5px" }}>
+        <div style={{ fontSize: "0.8rem", textAlign: "right", marginTop: "15px" }}>
           (※ 단위: Gg CO2eq)
         </div>
       </Modal>
