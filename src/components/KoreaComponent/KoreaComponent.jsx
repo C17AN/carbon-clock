@@ -40,7 +40,7 @@ const Description = styled.div`
   position: relative;
   margin-top: calc(50vh - 100px);
   right: 20%;
-  width: 700px;
+  width: 800px;
   height: 200px;
   background-color: #ffffff50;
   border-radius: 12px;
@@ -79,7 +79,10 @@ const KoreaComponent = () => {
         <KoreaMap setProvince={setProvince} setIsOpen={setIsOpen} />
       </MapWrapper>
       <Description>
-        <p>2020 한반도 온실가스 인벤토리 현황</p>
+        <p>
+          2021 한반도 온실가스 인벤토리 현황{" "}
+          <span style={{ fontSize: "0.88rem" }}>(2016 ~ 2018)</span>
+        </p>
         <h6>
           <a
             href="https://www.gihoo.or.kr/portal/kr/community/data_view.do"
