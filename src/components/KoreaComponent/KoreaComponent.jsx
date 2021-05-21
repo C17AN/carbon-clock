@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import KoreaMap from "../KoreaMap/KoreaMap";
-import ModalComponent from "../ModalComponent/ModalComponent";
 import "./KoreaComponent.scss";
+import ProvinceModal from "../ProvinceModal/ProvinceModal";
+import data from "../../provinceData";
+import Clock from "../Clock/Clock";
 
 const Container = styled.div`
   width: 100vw;
@@ -50,10 +52,22 @@ const Description = styled.div`
 const KoreaComponent = () => {
   const [modalIsOpen, setIsOpen] = useState(false);
   const [province, setProvince] = useState(false);
-  const [provinceInfo, setProvinceInfo] = useState(false);
+  const [provinceData, setProvinceData] = useState(null);
+
+  useEffect(() => {
+    setProvinceData(data.filter((el) => el.province === province));
+  }, [province]);
+
   return (
     <Container>
-      <ModalComponent modalIsOpen={modalIsOpen} setIsOpen={setIsOpen} />
+      {provinceData && (
+        <ProvinceModal
+          provinceData={provinceData}
+          modalIsOpen={modalIsOpen}
+          setIsOpen={setIsOpen}
+          setProvince={setProvince}
+        />
+      )}
       <MapWrapper>
         <KoreaMap setProvince={setProvince} setIsOpen={setIsOpen} />
       </MapWrapper>
@@ -68,6 +82,7 @@ const KoreaComponent = () => {
           </a>
         </h6>
       </Description>
+      <Clock />
     </Container>
   );
 };

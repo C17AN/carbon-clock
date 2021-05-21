@@ -37,7 +37,7 @@ const About = () => {
           <img src={danger} className="about__danger"></img>
           <figcaption>출처 : 환경부 홍보영상 - '2050 탄소중립의 모든 것' 중</figcaption>
         </figure>
-        <div className="about__content">
+        <article className="about__content">
           <p>"온실 효과" 라는 말을 들어보신 적 있으신가요?</p>
           <p>
             공장과 발전소, 자동차들이 내뿜는 매연에 포함된 이산화탄소가 지구를 거대한 온실로 만들고
@@ -87,7 +87,7 @@ const About = () => {
               {renderDescription()}
             </div>
           </div>
-        </div>
+        </article>
       </div>
     </motion.div>
   );

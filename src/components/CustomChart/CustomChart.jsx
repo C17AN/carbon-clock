@@ -1,6 +1,6 @@
 import React from "react";
 import { Bar } from "react-chartjs-2";
-import { data1, data2, data3, option1, option2, option3 } from "../../data";
+import { data1, data2, data3, option1, option2, option3 } from "../../climateData";
 import "./CustomChart.scss";
 
 const CustomChart = () => (

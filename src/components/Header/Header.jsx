@@ -4,7 +4,7 @@ import "./Header.scss";
 
 const Header = () => {
   return (
-    <div className="header__container">
+    <header className="header__container">
       <ul>
         <Link to="/about">
           <li>일상 속 탄소배출</li>
@@ -16,7 +16,7 @@ const Header = () => {
           <li>위기의 지구</li>
         </Link>
       </ul>
-    </div>
+    </header>
   );
 };
 
