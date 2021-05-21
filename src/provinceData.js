@@ -1,7 +1,7 @@
 const data = [
   {
     province: "서울",
-    grade: 0,
+    grade: 9,
     totalPopulate2018: 29368.05,
     totalPopulate2017: 29619.84,
     totalPopulate2016: 29846.73,
@@ -21,7 +21,7 @@ const data = [
   },
   {
     province: "경기",
-    grade: 0,
+    grade: 3,
     totalPopulate2018: 87897.23,
     totalPopulate2017: 84454.05,
     totalPopulate2016: 81802.92,
@@ -41,7 +41,7 @@ const data = [
   },
   {
     province: "인천",
-    grade: 0,
+    grade: 7,
     totalPopulate2018: 51258.66,
     totalPopulate2017: 51218.51,
     totalPopulate2016: 52518.81,
@@ -61,7 +61,7 @@ const data = [
   },
   {
     province: "강원",
-    grade: 0,
+    grade: 6,
     totalPopulate2018: 52402.49,
     totalPopulate2017: 47603.08,
     totalPopulate2016: 41444.47,
@@ -81,7 +81,7 @@ const data = [
   },
   {
     province: "충북",
-    grade: 0,
+    grade: 10,
     totalPopulate2018: 26637.98,
     totalPopulate2017: 26892.12,
     totalPopulate2016: 27558.38,
@@ -101,7 +101,7 @@ const data = [
   },
   {
     province: "충남",
-    grade: 0,
+    grade: 1,
     totalPopulate2018: 161299.72,
     totalPopulate2017: 155174.13,
     totalPopulate2016: 138984.2,
@@ -121,7 +121,7 @@ const data = [
   },
   {
     province: "대전",
-    grade: 0,
+    grade: 14,
     totalPopulate2018: 0,
     totalPopulate2017: 0,
     totalPopulate2016: 0,
@@ -141,7 +141,7 @@ const data = [
   },
   {
     province: "세종",
-    grade: 0,
+    grade: 17,
     totalPopulate2018: 6465.46,
     totalPopulate2017: 6148.5,
     totalPopulate2016: 6465.12,
@@ -161,7 +161,7 @@ const data = [
   },
   {
     province: "경북",
-    grade: 0,
+    grade: 5,
     totalPopulate2018: 63013.67,
     totalPopulate2017: 62541.84,
     totalPopulate2016: 65058.72,
@@ -181,7 +181,7 @@ const data = [
   },
   {
     province: "경남",
-    grade: 0,
+    grade: 4,
     totalPopulate2018: 0,
     totalPopulate2017: 0,
     totalPopulate2016: 0,
@@ -201,7 +201,7 @@ const data = [
   },
   {
     province: "대구",
-    grade: 0,
+    grade: 13,
     totalPopulate2018: 9342.29,
     totalPopulate2017: 9465.59,
     totalPopulate2016: 9741.93,
@@ -221,7 +221,7 @@ const data = [
   },
   {
     province: "울산",
-    grade: 0,
+    grade: 8,
     totalPopulate2018: 41045.65,
     totalPopulate2017: 36722.53,
     totalPopulate2016: 39979.09,
@@ -241,7 +241,7 @@ const data = [
   },
   {
     province: "부산",
-    grade: 0,
+    grade: 11,
     totalPopulate2018: 15692.45,
     totalPopulate2017: 13804.01,
     totalPopulate2016: 14636.22,
@@ -261,7 +261,7 @@ const data = [
   },
   {
     province: "전북",
-    grade: 0,
+    grade: 12,
     totalPopulate2018: 15308.77,
     totalPopulate2017: 13840.26,
     totalPopulate2016: 14307.61,
@@ -281,7 +281,7 @@ const data = [
   },
   {
     province: "전남",
-    grade: 0,
+    grade: 2,
     totalPopulate2018: 90279.19,
     totalPopulate2017: 92389.19,
     totalPopulate2016: 87889.21,
@@ -301,7 +301,7 @@ const data = [
   },
   {
     province: "광주",
-    grade: 0,
+    grade: 15,
     totalPopulate2018: 5663.51,
     totalPopulate2017: 5407.02,
     totalPopulate2016: 5484.95,
@@ -321,7 +321,7 @@ const data = [
   },
   {
     province: "제주",
-    grade: 0,
+    grade: 16,
     totalPopulate2018: 4840.64,
     totalPopulate2017: 4444.39,
     totalPopulate2016: 4229.12,

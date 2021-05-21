@@ -13,9 +13,10 @@ const customStyles = {
     bottom: "auto",
     marginRight: "-50%",
     width: "500px",
-    height: "300px",
+    height: "350px",
     borderRadius: "12px",
     transform: "translate(-50%, -50%)",
+    overflow: "hidden",
   },
   overlay: {
     backgroundColor: "rgba(72, 72, 72, 0.8)",
@@ -24,8 +25,23 @@ const customStyles = {
 
 const Table = styled.table`
   width: 100%;
+  overflow: hidden;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  th {
+    border-bottom: 2px solid #17477a;
+  }
+  th:first-child {
+    border: none;
+  }
+  tr {
+    padding: 10px 0;
+  }
   td {
     text-align: center;
+  }
+  td:first-child {
+    font-weight: bold;
   }
 `;
 
@@ -65,7 +81,11 @@ const ProvinceModal = ({ provinceData, modalIsOpen, setIsOpen, setProvince }) =>
         style={customStyles}
         contentLabel="Example Modal"
       >
-        <h2 className="country__name">{province}</h2>
+        <h2 className="country__name">
+          {province}
+          {"  "}
+          <span style={{ fontSize: "0.88rem", color: "#999" }}>전국 탄소배출량 {grade}등</span>
+        </h2>
         <article className="country__description">
           <Table>
             <th></th>
@@ -105,7 +125,7 @@ const ProvinceModal = ({ provinceData, modalIsOpen, setIsOpen, setProvince }) =>
           </Table>
         </article>
         <div style={{ fontSize: "0.8rem", textAlign: "right", marginTop: "5px" }}>
-          (단위: Gg CO2eq)
+          (※ 단위: Gg CO2eq)
         </div>
       </Modal>
     </div>
