@@ -69,9 +69,9 @@ const ProvinceModal = ({ provinceData, modalIsOpen, setIsOpen, setProvince }) =>
         <article className="country__description">
           <Table>
             <th></th>
-            <th>2016</th>
-            <th>2017</th>
-            <th>2018</th>
+            <th>2016년</th>
+            <th>2017년</th>
+            <th>2018년</th>
             <tr>
               <td>총 배출량</td>
               <td>{totalPopulate2016?.toLocaleString()}</td>
@@ -80,27 +80,27 @@ const ProvinceModal = ({ provinceData, modalIsOpen, setIsOpen, setProvince }) =>
             </tr>
             <tr>
               <td>에너지부문 배출량</td>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
+              <td>{energyUsed2016?.toLocaleString()}</td>
+              <td>{energyUsed2017?.toLocaleString()}</td>
+              <td>{energyUsed2018?.toLocaleString()}</td>
             </tr>
             <tr>
               <td>산업부문 배출량</td>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
+              <td>{industryUsed2016?.toLocaleString()}</td>
+              <td>{industryUsed2017?.toLocaleString()}</td>
+              <td>{industryUsed2018?.toLocaleString()}</td>
             </tr>
             <tr>
               <td>농업부문 배출량</td>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
+              <td>{agricultureUsed2016?.toLocaleString()}</td>
+              <td>{agricultureUsed2017?.toLocaleString()}</td>
+              <td>{agricultureUsed2018?.toLocaleString()}</td>
             </tr>
             <tr>
               <td>폐기물부문 배출량</td>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
+              <td>{wasteUsed2016?.toLocaleString()}</td>
+              <td>{wasteUsed2017?.toLocaleString()}</td>
+              <td>{wasteUsed2018?.toLocaleString()}</td>
             </tr>
           </Table>
         </article>

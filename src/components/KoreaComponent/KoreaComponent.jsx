@@ -13,6 +13,13 @@ const Container = styled.div`
   justify-content: center;
   overflow: hidden;
   background: linear-gradient(#f0c4c0, #fff, #dce3e6, #c1dce8, #97d0e8);
+  &:after {
+    background-color: red;
+    background: url("https://images.unsplash.com/photo-1552783160-27bfdb2625d5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1860&q=80");
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+  }
 `;
 
 const MapWrapper = styled.div`

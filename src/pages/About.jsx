@@ -15,9 +15,9 @@ const About = () => {
   const renderDescription = () => {
     switch (solution) {
       case "recycle":
-        return "재활용은 탄소배출을 줄일 수 있는 가장 쉬운 방법으로,";
+        return "[재활용을 위한 분리수거] - 재활용은 탄소배출을 줄일 수 있는 가장 쉬운 방법으로, 플라스틱을 소각할 때 발생하는 온실가스는 전체 온실가스 배출량에서도 큰 비중을 차지합니다.";
       case "bus":
-        return "버스는";
+        return "[대중교통 이용하기] - 내연기관이 탑재된 자동차에는 질산화물질(NOx), 일산화탄소(CO), 탄화수소(HC), 아황산가스(SO2) 등 대기를 오염시키는 주요 물질들이 존재합니다. 대중교통을 이용해 주행하는 총 자동차의 수를 줄이면 매연량을 비약적으로 감소할 수 있습니다.";
       case "cup":
         return "컵은";
       case "environment":
