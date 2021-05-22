@@ -10,6 +10,9 @@ const GlobeComponent = () => {
   const [modalIsOpen, setIsOpen] = useState(false);
   const [countryName, setCountryName] = useState(null);
   const [countryDescription, setCountryDescription] = useState(null);
+  const [emission2019, setEmission2019] = useState(null);
+  const [emission2018, setEmission2018] = useState(null);
+  const [emission2017, setEmission2017] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -33,6 +36,9 @@ const GlobeComponent = () => {
       <ModalComponent
         name={countryName}
         description={countryDescription}
+        emission2019={emission2019}
+        emission2018={emission2018}
+        emission2017={emission2017}
         modalIsOpen={modalIsOpen}
         setIsOpen={setIsOpen}
       />
@@ -52,6 +58,9 @@ const GlobeComponent = () => {
         onLabelClick={(d) => {
           setCountryName(d.properties.name);
           setCountryDescription(d.properties.description);
+          setEmission2019(d.properties.pop_max);
+          setEmission2018(d.properties.pop_2018);
+          setEmission2017(d.properties.pop_2017);
           setIsOpen(() => true);
         }}
       />
